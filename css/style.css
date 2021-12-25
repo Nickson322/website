@@ -140,3 +140,181 @@ h1{
     color:#1085e4;
     display: block;
 }
+
+.page-clients span{
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+    display: block;
+}
+
+.page-clients h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:#fff;
+    display: block;
+}
+
+.text{
+    font-size: 14px;
+    font-weight: 400;
+    color:#9195bb;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 600;
+    color:#000958;
+}
+
+.position{
+    font-size: 14px;
+    font-weight: 700;
+    color:#1085e4;
+}
+
+.page-plan h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+    display: block;
+}
+
+.page-plan h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:#000958;
+    display: block;
+}
+
+.box-price-item h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:#000958;
+}
+
+.box-price-item-active h3{
+    color:#fff;
+}
+
+.box-price-item-active {
+    background-color: #152b59;
+    color: #fff;
+}
+
+.box-price-item p strong{
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+}
+
+.box-price-item-active a{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+.box-price-item-active ul{
+    font-size: 14px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.box-price-item-users h3{
+    font-weight: 700;
+}
+
+.box-price-item ul{
+    font-size: 14px;
+    font-weight: 400;
+    color:#9195bb;
+}
+
+.box-price-item-users ul{
+    font-size: 14px;
+    font-weight: 400;
+    color:#9195bb;
+}
+
+.box-price-item-users p strong{
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+}
+
+.box-price-item-users h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000958;
+}
+
+.box-price-item-users span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000958;
+}
+
+.box-price-item-active h3{
+    font-size: 40px;
+}
+
+.box-price-item-active span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.box-price-item-active p strong {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.page-team h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.page-team h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+    display: block;
+}
+
+.box-team span{
+    font-size: 14px;
+    font-weight: 800;
+    color:#1a88e1;
+    display: block;
+}
+
+.box-team p{
+    font-size: 26px;
+    font-weight: 600;
+    color:#192b59;
+}
+
+.page-form h2{
+    font-size: 50px;
+    font-weight: 600;
+    color:#192b59;
+}
+
+.page-form button{
+    font-size: 12px;
+    color: #fff;
+    background-color: #1085e4;
+}
+
+.footer p{
+    font-size:16px;
+    font-weight: 400;
+    color:#b6bae0;
+}
+
+.footer a{
+    color: #1085e4;
+}
