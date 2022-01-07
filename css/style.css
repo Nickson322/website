@@ -13,12 +13,14 @@ h1{
 }
 
 .logo{
+    display:inline-flex;
+    padding: 0 0;
     width:181px;
     height:49px;
 }
 
 .nav{
-    display:flex;
+    display:inline-flex;
     justify-content: flex-start;
     list-style-type: none;
     font-size: 12px;
@@ -26,6 +28,12 @@ h1{
     color: #6e7ea9;
     text-transform: uppercase;
 }
+.navdiv{
+    display:inline-flex;
+}
+
+
+
 
 .btn-primary{
     color:#fff;
