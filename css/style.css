@@ -12,17 +12,80 @@ h1{
     color: #192b59;
 }
 
+.logo{
+    width:181px;
+    height:49px;
+}
+
 .nav{
+    display:flex;
+    justify-content: flex-start;
+    list-style-type: none;
     font-size: 12px;
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
 }
 
+.btn-primary{
+    color:#fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: 1px solid #1085e4;
+}
+.btn-primary:hover{
+    color:#1085e4;
+    background-color: #fff;
+}
+
+.btn-secondary{
+    color:#7e8bae;
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-left: 12px;
+    border: 1px solid #cbdbe8;
+}
+.btn-secondary:hover{
+    background-color: #fff;
+}
+
+.btn-info{
+    color:#8085b1;
+    background: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700; 
+    padding: 15px 47px;
+    border-radius:30px;
+}
+
+.nav>li{
+    padding: 0 15px;
+}
+
+.stat-logo{
+    margin-left: 50%;
+}
+
+.page-header h1{
+    font-size: 80px;
+    width:590px;
+}
+
 .btn-free{
     color: #fff;
     font-weight: 400;
     background-color: #1085e4;
+    padding: 16px 38px;
 }
 
 .btn-started{
