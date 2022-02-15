@@ -271,7 +271,7 @@ h1{
     background-color: #000958;
     height: 60px;
     border-radius: 50px;
-    width: 295px;
+    width: 449px;
 }
 
 .sub-texts{
@@ -280,6 +280,17 @@ h1{
 
 .sub-texts h1{
     font-weight: 600;
+}
+
+.subblock{
+    position: relative;
+}
+
+.subblock .btn-primary{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 15px 20px;
 }
 
 .page-software dt{
