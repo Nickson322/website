@@ -679,19 +679,70 @@ h1{
     margin-left: 25%;
 }
 
-.page-clients span{
-    font-size: 18px;
-    font-weight: 800;
-    color:#85c8ff;
+.page-clients {
+    background-color: #fff;
+    background-image: url(../images/bg_11.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+
+.clients {
+    display: block;
+    margin: 0 300px;
+    padding: 10px;
+}
+
+.box-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-one {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: -100px;
+    
+}
+
+.Rolin {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.girl {
+    margin: 10px;
+}
+
+.ceo {
     display: block;
 }
 
-.page-clients h2{
-    font-size: 40px;
-    font-weight: 600;
-    color:#fff;
-    display: block;
+.page-clients h2 {
+    color: #fff;
 }
+
+.page-clients span {
+    color:darkturquoise;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.page-clients > h2{
+    font-size: 50px;
+    font-weight: 600;
+    color:#192b59;
+    line-height: 1.2;
+    margin-left: 0px;
+    max-width: 540px;
+}
+
+
 
 .text{
     font-size: 14px;
