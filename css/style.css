@@ -541,18 +541,84 @@ h1{
     color: #c4d2dd;
 }
 
-.page-started a{
-    color: #fff;
-    font-weight: 400;
-    background-color: #1085e4;
+
+
+
+.page-app {
+    background-color: #fff;
 }
 
-.page-started {
-    background-image: url(../img/bg8.png);
+.slaid_seven {
+    height: 400px;
+    margin:100px 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.storebtn-appstore, .storebtn-gplay {
+  display: inline-block;
+  vertical-align: text-bottom;
+  overflow: hidden;
+  width: 130px;
+  height: 45px;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  color: transparent;
+  color: #FFF;
+  text-indent: -150%;
+  text-decoration: none;
+}
+
+
+.storebtn-appstore {
+  background-image: url(../images/btn-appstore-en.png);
+}
+
+.storebtn-gplay {
+    background-image: url(../images/btn-gplay-en.png);
+  }
+
+.page-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 450px;
+    line-height: 1.1;
+    color: #192b59;
+}
+.page-app p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #bfc4d3;
+}
+
+.page-app h4 {
+    font-size: 12px;
+    font-weight: 400px;
+
+}
+
+
+
+.finans {
+    background-image: url(../images/bg8.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
 }
+
+
+
+
+
+
+
 
 .page_finans {
     margin-left: 160px;
@@ -564,7 +630,7 @@ h1{
 }
 
 .txt_brandon {
-    background-image: url(../img/icon.png);
+    background-image: url(../images/icon.png);
     background-repeat: no-repeat;
     flex-basis: 50%;
     margin-left: 70px;
@@ -595,7 +661,7 @@ h1{
 }
 
 .page-control {
-    background-image: url(../img/bg9.png);
+    background-image: url(../images/bg9.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -610,7 +676,7 @@ h1{
 }
 
 .txt-easy {
-    background-image: url(../img/icon.png);
+    background-image: url(../images/icon.png);
     background-repeat: no-repeat;
     flex-basis: 50%;
     margin-right: 50px;
