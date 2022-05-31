@@ -344,25 +344,49 @@
         </div>
     </div>
 
+
     <div class="page-team">
-        <div>
-            <h2><span>angels</span>Our Team</h2>
+        <div class="wrap">
+            <h2 class="title-h2-40"><span>angels</span>Our Team</h2>
             <div class="box-team">
-                <div>
-                    <span>founder</span>
-                    <p>Ricardo T. Obrien</p>
+                <div class="box-team-item">
+                    <img class="avatar" src="images/Ricardo.png" alt="ava">
+                    <p class="position">founder</p>
+                    <p class="name">Ricardo T. Obrien</p>
+                    <button class="btn-team button-more btn-ricardo" type="button"><span></span></button>
+                    <ul class="social-team social-ricardo" style="display: none">
+                        <li><a href="" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-wb"><span></span></a></li>
+                    </ul>
                 </div>
 
-                <div>
-                    <span>ceo</span>
-                    <p>Alberto Del Rio</p>
+                <div class="box-team-item">
+                    <img class="avatar" src="images/Alberto.png" alt="ava">
+                    <p class="position">ceo</p>
+                    <p class="name">Alberto Del Rio</p>
+                    <button class="btn-team button-more btn-ricardo1" type="button"><span></span></button>
+                    <ul class="social-team social-ricardo1" style="display: none">
+                        <li><a href="" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-wb"><span></span></a></li>
+                    </ul>
                 </div>
 
-                <div>
-                    <span>designer</span>
-                    <p>Thomas Alva Adison</p>
+                <div class="box-team-item">
+                    <img class="avatar" src="images/Thomas.png" alt="ava">
+                    <p class="position">designer</p>
+                    <p class="name">Thomas Alva Adison</p>
+                    <button class="btn-team button-more btn-ricardo2" type="button"><span></span></button>
+                    <ul class="social-team social-ricardo2" style="display: none">
+                        <li><a href="" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" class="btn-team btn-wb"><span></span></a></li>
+                    </ul>
                 </div>
-
             </div>
         </div>
     </div>
@@ -392,5 +416,35 @@
         </div>
     </div>
 
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+    </script>
+    
+    <script>
+        $(document).ready(function() {
+            $(".btn-ricardo").click(function() {
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-ricardo1").click(function() {
+                $(".btn-ricardo1").hide();
+                $(".social-ricardo1").fadeIn();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-ricardo2").click(function() {
+                $(".btn-ricardo2").hide();
+                $(".social-ricardo2").fadeIn();
+            });
+        });
+    </script>
 </body>
 </html> 
